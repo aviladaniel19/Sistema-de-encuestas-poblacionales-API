@@ -106,20 +106,6 @@ La salida en consola mostrará el puerto asignado:
     "nivel_educativo": "universitario",
     "ingresos_mensuales": 2800000.0
   },
-  "respuestas": [
-    {
-      "pregunta_id": "P001",
-      "pregunta_texto": "¿Qué tan satisfecho está con los servicios públicos?",
-      "tipo_pregunta": "likert",
-      "respuesta": 4
-    },
-    {
-      "pregunta_id": "P002",
-      "pregunta_texto": "¿Qué porcentaje del ingreso destina a vivienda?",
-      "tipo_pregunta": "porcentaje",
-      "respuesta": 30.5
-    }
-  ],
   "fecha_diligenciamiento": "2026-03-20",
   "encuesta_version": "1.0"
 }
