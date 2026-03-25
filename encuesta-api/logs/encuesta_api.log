@@ -1,0 +1,814 @@
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | WARNING  | encuesta_api | [422 VALIDACIÓN] POST /encuestas/ → 2 error(es) de validación
+21/03/2026 04:58:43 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → estrato': Value error, El estrato '10' no es válido. En Colombia los estratos son del 1 al 6. (recibido: 10)
+21/03/2026 04:58:43 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → departamento': Value error, 'NARNIA' no es un departamento válido de Colombia. Ejemplo de valores válidos: ANTIOQUIA, CUNDINAMARCA, BOGOTÁ D.C. (recibido: NARNIA)
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → listar_encuestas()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → listar_encuestas()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 0.3ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → obtener_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       obtener_encuesta() completado en 0.3ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → obtener_encuesta()
+21/03/2026 04:58:43 | ERROR    | encuesta_api | [ERROR]    obtener_encuesta() falló en 0.3ms → 404: No existe ninguna encuesta con ID 'uuid-que-no-existe'.
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → actualizar_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       actualizar_encuesta() completado en 0.3ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → actualizar_encuesta()
+21/03/2026 04:58:43 | ERROR    | encuesta_api | [ERROR]    actualizar_encuesta() falló en 0.3ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → eliminar_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       eliminar_encuesta() completado en 0.3ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → eliminar_encuesta()
+21/03/2026 04:58:43 | ERROR    | encuesta_api | [ERROR]    eliminar_encuesta() falló en 0.5ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → estadisticas()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.02ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       estadisticas() completado en 0.5ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → crear_encuesta()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:58:43 → estadisticas()
+21/03/2026 04:58:43 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.05ms
+21/03/2026 04:58:43 | INFO     | encuesta_api | [OK]       estadisticas() completado en 0.6ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.6ms
+21/03/2026 04:59:10 | WARNING  | encuesta_api | [422 VALIDACIÓN] POST /encuestas/ → 2 error(es) de validación
+21/03/2026 04:59:10 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → estrato': Value error, El estrato '10' no es válido. En Colombia los estratos son del 1 al 6. (recibido: 10)
+21/03/2026 04:59:10 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → departamento': Value error, 'NARNIA' no es un departamento válido de Colombia. Ejemplo de valores válidos: ANTIOQUIA, CUNDINAMARCA, BOGOTÁ D.C. (recibido: NARNIA)
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → listar_encuestas()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.3ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → listar_encuestas()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → obtener_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       obtener_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → obtener_encuesta()
+21/03/2026 04:59:10 | ERROR    | encuesta_api | [ERROR]    obtener_encuesta() falló en 0.4ms → 404: No existe ninguna encuesta con ID 'uuid-que-no-existe'.
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → actualizar_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       actualizar_encuesta() completado en 0.3ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → actualizar_encuesta()
+21/03/2026 04:59:10 | ERROR    | encuesta_api | [ERROR]    actualizar_encuesta() falló en 0.4ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → eliminar_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       eliminar_encuesta() completado en 0.3ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → eliminar_encuesta()
+21/03/2026 04:59:10 | ERROR    | encuesta_api | [ERROR]    eliminar_encuesta() falló en 0.4ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → estadisticas()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.02ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       estadisticas() completado en 0.6ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → crear_encuesta()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.4ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 04:59:10 → estadisticas()
+21/03/2026 04:59:10 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.04ms
+21/03/2026 04:59:10 | INFO     | encuesta_api | [OK]       estadisticas() completado en 0.6ms
+21/03/2026 05:18:57 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:57 → crear_encuesta()
+21/03/2026 05:18:57 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.9ms
+21/03/2026 05:18:57 | WARNING  | encuesta_api | [422 VALIDACIÓN] POST /encuestas/ → 2 error(es) de validación
+21/03/2026 05:18:57 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → estrato': Value error, El estrato '10' no es válido. En Colombia los estratos son del 1 al 6. (recibido: 10)
+21/03/2026 05:18:57 | WARNING  | encuesta_api |    ✗ Campo 'body → encuestado → departamento': Value error, 'NARNIA' no es un departamento válido de Colombia. Ejemplo de valores válidos: ANTIOQUIA, CUNDINAMARCA, BOGOTÁ D.C. (recibido: NARNIA)
+21/03/2026 05:18:57 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:57 → listar_encuestas()
+21/03/2026 05:18:57 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 0.6ms
+21/03/2026 05:18:57 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:57 → crear_encuesta()
+21/03/2026 05:18:57 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.7ms
+21/03/2026 05:18:57 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:57 → listar_encuestas()
+21/03/2026 05:18:57 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 0.6ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → crear_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.6ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → obtener_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       obtener_encuesta() completado en 0.6ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → obtener_encuesta()
+21/03/2026 05:18:58 | ERROR    | encuesta_api | [ERROR]    obtener_encuesta() falló en 0.8ms → 404: No existe ninguna encuesta con ID 'uuid-que-no-existe'.
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → crear_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.7ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → actualizar_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       actualizar_encuesta() completado en 0.7ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → actualizar_encuesta()
+21/03/2026 05:18:58 | ERROR    | encuesta_api | [ERROR]    actualizar_encuesta() falló en 0.6ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → crear_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.7ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → eliminar_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       eliminar_encuesta() completado en 0.5ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → eliminar_encuesta()
+21/03/2026 05:18:58 | ERROR    | encuesta_api | [ERROR]    eliminar_encuesta() falló en 0.7ms → 404: No existe ninguna encuesta con ID 'no-existe'.
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → estadisticas()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.04ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       estadisticas() completado en 1.1ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → crear_encuesta()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.6ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:18:58 → estadisticas()
+21/03/2026 05:18:58 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.09ms
+21/03/2026 05:18:58 | INFO     | encuesta_api | [OK]       estadisticas() completado en 1.0ms
+21/03/2026 05:19:14 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:14 → crear_encuesta()
+21/03/2026 05:19:14 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.9ms
+21/03/2026 05:19:14 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:14 → crear_encuesta()
+21/03/2026 05:19:14 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 0.6ms
+21/03/2026 05:19:14 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:14 → exportar_encuestas()
+21/03/2026 05:19:14 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 8.7ms
+21/03/2026 05:19:14 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:14 → exportar_encuestas()
+21/03/2026 05:19:14 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 0.8ms
+21/03/2026 05:19:14 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:14 → exportar_encuestas()
+21/03/2026 05:19:15 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 481.8ms
+21/03/2026 05:19:15 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:15 → exportar_encuestas()
+21/03/2026 05:19:15 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 0.6ms
+21/03/2026 05:19:15 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:15 → exportar_encuestas()
+21/03/2026 05:19:15 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 0.8ms
+21/03/2026 05:19:15 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:15 → exportar_encuestas()
+21/03/2026 05:19:15 | INFO     | encuesta_api | [OK]       exportar_encuestas() completado en 0.7ms
+21/03/2026 05:19:15 | INFO     | encuesta_api | [PETICIÓN] 21/03/2026 05:19:15 → exportar_encuestas()
+21/03/2026 05:19:15 | ERROR    | encuesta_api | [ERROR]    exportar_encuestas() falló en 0.7ms → 400: Formato 'pdf' no soportado. Use: csv, json, md, txt, xlsx, xml
+25/03/2026 16:38:48 | INFO     | encuesta_api | Servidor iniciado — 25/03/2026 16:38:48 — puerto 8526
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarLogs (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1826:24)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarLogs (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1826:24)
+25/03/2026 16:42:42 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:42 → estadisticas()
+25/03/2026 16:42:42 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:42 → estadisticas()
+25/03/2026 16:42:42 | INFO     | encuesta_api | [TIMER]   estadisticas: 1.07ms
+25/03/2026 16:42:42 | INFO     | encuesta_api | [TIMER]   estadisticas: 1.07ms
+25/03/2026 16:42:42 | INFO     | encuesta_api | [OK]       estadisticas() completado en 7.4ms
+25/03/2026 16:42:42 | INFO     | encuesta_api | [OK]       estadisticas() completado en 7.4ms
+25/03/2026 16:42:42 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:42 → listar_encuestas()
+25/03/2026 16:42:42 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:42 → listar_encuestas()
+25/03/2026 16:42:42 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.6ms
+25/03/2026 16:42:42 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.6ms
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasResumen (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1148:24)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasResumen (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1148:24)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:24)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:24)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1095:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:478:86)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1095:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:478:86)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1095:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:478:86)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1341:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1095:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:478:86)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:24)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:24)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1098:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:484:78)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1098:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:484:78)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1098:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:484:78)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1098:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:484:78)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/estadisticas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/estadisticas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/estadisticas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/estadisticas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/estadisticas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/estadisticas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/encuestas/estadisticas/": Failed to fetch | Endpoint: http://localhost:8000/encuestas/estadisticas/ | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RECHAZO_PROMESA_REINTENTO] IP=127.0.0.1 | Mensaje: Failed to fetch | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1096:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:490:92)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/recientes?n=50&solo_errores=false": Failed to fetch | Endpoint: http://localhost:8000/logs/recientes?n=50&solo_errores=false | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR_REINTENTO] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/recientes?n=50&solo_errores=false": Failed to fetch | Endpoint: http://localhost:8000/logs/recientes?n=50&solo_errores=false | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarLogs (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1826:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1097:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:493:76)
+25/03/2026 16:42:42 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:19)
+    at cargarLogs (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1826:30)
+    at showPanel (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1097:30)
+    at HTMLButtonElement.onclick (file:///C:/Users/USUARIO/Downloads/index%20(4).html:493:76)
+25/03/2026 16:42:43 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:43 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:43 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:43 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:24)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEstadisticas (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1153:24)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:24)
+25/03/2026 16:42:44 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async api (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1141:13)
+    at async cargarEncuestasEnCarga (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1557:24)
+25/03/2026 16:42:45 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:45 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:45 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:45 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at file:///C:/Users/USUARIO/Downloads/index%20(4).html:1942:3
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:46 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:47 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:47 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:47 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:47 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:47 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:47 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:47 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:47 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:48 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:48 → estadisticas()
+25/03/2026 16:42:48 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:48 → estadisticas()
+25/03/2026 16:42:48 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.06ms
+25/03/2026 16:42:48 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.06ms
+25/03/2026 16:42:48 | INFO     | encuesta_api | [OK]       estadisticas() completado en 4.8ms
+25/03/2026 16:42:48 | INFO     | encuesta_api | [OK]       estadisticas() completado en 4.8ms
+25/03/2026 16:42:48 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:48 → listar_encuestas()
+25/03/2026 16:42:48 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:48 → listar_encuestas()
+25/03/2026 16:42:48 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.6ms
+25/03/2026 16:42:48 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.6ms
+25/03/2026 16:42:48 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:48 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:48 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:48 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:48 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:48 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:48 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:48 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:49 → listar_encuestas()
+25/03/2026 16:42:49 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:49 → listar_encuestas()
+25/03/2026 16:42:49 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.2ms
+25/03/2026 16:42:49 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.2ms
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:49 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:50 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:50 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:50 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:50 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:50 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:50 → estadisticas()
+25/03/2026 16:42:50 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:50 → estadisticas()
+25/03/2026 16:42:50 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.05ms
+25/03/2026 16:42:50 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.05ms
+25/03/2026 16:42:50 | INFO     | encuesta_api | [OK]       estadisticas() completado en 2.8ms
+25/03/2026 16:42:50 | INFO     | encuesta_api | [OK]       estadisticas() completado en 2.8ms
+25/03/2026 16:42:50 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:50 → listar_encuestas()
+25/03/2026 16:42:50 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:50 → listar_encuestas()
+25/03/2026 16:42:50 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.8ms
+25/03/2026 16:42:50 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.8ms
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | WARNING  | encuesta_api.frontend | [FRONTEND/RED_ERROR] IP=127.0.0.1 | Mensaje: Error de red al conectar con "http://localhost:8000/logs/error": Failed to fetch | Endpoint: http://localhost:8000/logs/error | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:51 | DEBUG    | encuesta_api.frontend |   Stack trace:
+TypeError: Failed to fetch
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1957:23)
+    at reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:11)
+    at window.fetch (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1960:5)
+    at async reportarError (file:///C:/Users/USUARIO/Downloads/index%20(4).html:1889:5)
+25/03/2026 16:42:52 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:52 → listar_encuestas()
+25/03/2026 16:42:52 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:42:52 → listar_encuestas()
+25/03/2026 16:42:52 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.6ms
+25/03/2026 16:42:52 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.6ms
+25/03/2026 16:43:06 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:43:06 → cargar_desde_archivo()
+25/03/2026 16:43:06 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:43:06 → cargar_desde_archivo()
+25/03/2026 16:43:06 | INFO     | encuesta_api | [OK]       cargar_desde_archivo() completado en 61.7ms
+25/03/2026 16:43:06 | INFO     | encuesta_api | [OK]       cargar_desde_archivo() completado en 61.7ms
+25/03/2026 16:43:06 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:43:06 → listar_encuestas()
+25/03/2026 16:43:06 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:43:06 → listar_encuestas()
+25/03/2026 16:43:06 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.4ms
+25/03/2026 16:43:06 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.4ms
+25/03/2026 16:44:03 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:03 → crear_encuesta()
+25/03/2026 16:44:03 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:03 → crear_encuesta()
+25/03/2026 16:44:03 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 1.4ms
+25/03/2026 16:44:03 | INFO     | encuesta_api | [OK]       crear_encuesta() completado en 1.4ms
+25/03/2026 16:44:03 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:03 → listar_encuestas()
+25/03/2026 16:44:03 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:03 → listar_encuestas()
+25/03/2026 16:44:03 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.7ms
+25/03/2026 16:44:03 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 1.7ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:13 → estadisticas()
+25/03/2026 16:44:13 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:13 → estadisticas()
+25/03/2026 16:44:13 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.47ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [TIMER]   estadisticas: 0.47ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [OK]       estadisticas() completado en 3.7ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [OK]       estadisticas() completado en 3.7ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:13 → listar_encuestas()
+25/03/2026 16:44:13 | INFO     | encuesta_api | [PETICIÓN] 25/03/2026 16:44:13 → listar_encuestas()
+25/03/2026 16:44:13 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.0ms
+25/03/2026 16:44:13 | INFO     | encuesta_api | [OK]       listar_encuestas() completado en 2.0ms
